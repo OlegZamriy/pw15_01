@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Queue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{ccc290f1-4035-49d6-8e70-cdfcbbfe512f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
